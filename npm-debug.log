@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\jdupre\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'aws-sigv4-headers' ]
+2 info using npm@3.10.3
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData aws-sigv4-headers
+8 silly fetchNamedPackageData aws-sigv4-headers
+9 silly mapToRegistry name aws-sigv4-headers
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'aws-sigv4-headers',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'aws-sigv4-headers',
+12 silly mapToRegistry   name: 'aws-sigv4-headers',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/aws-sigv4-headers
+14 verbose get https://registry.npmjs.org/aws-sigv4-headers not expired, no request
+15 silly install normalizeTree
+16 silly loadCurrentTree Finishing
+17 silly loadIdealTree Starting
+18 silly install loadIdealTree
+19 silly cloneCurrentTree Starting
+20 silly install cloneCurrentTreeToIdealTree
+21 silly cloneCurrentTree Finishing
+22 silly loadShrinkwrap Starting
+23 silly install loadShrinkwrap
+24 silly loadShrinkwrap Finishing
+25 silly loadAllDepsIntoIdealTree Starting
+26 silly install loadAllDepsIntoIdealTree
+27 silly rollbackFailedOptional Starting
+28 silly rollbackFailedOptional Finishing
+29 silly runTopLevelLifecycles Starting
+30 silly runTopLevelLifecycles Finishing
+31 silly install printInstalled
+32 verbose stack Error: Refusing to install aws-sigv4-headers as a dependency of itself
+32 verbose stack     at checkSelf (C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:53:14)
+32 verbose stack     at Array.<anonymous> (C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+32 verbose stack     at LOOP (C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+32 verbose stack     at chain (C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+32 verbose stack     at C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:16:5
+32 verbose stack     at C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+32 verbose stack     at Array.forEach (native)
+32 verbose stack     at C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+32 verbose stack     at Array.forEach (native)
+32 verbose stack     at asyncMap (C:\Users\jdupre\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+33 verbose cwd C:\Users\jdupre\code\campsite\aws-sigv4
+34 error Windows_NT 6.1.7601
+35 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\jdupre\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "aws-sigv4-headers"
+36 error node v6.9.2
+37 error npm  v3.10.3
+38 error code ENOSELF
+39 error Refusing to install aws-sigv4-headers as a dependency of itself
+40 error If you need help, you may report this error at:
+40 error     <https://github.com/npm/npm/issues>
+41 verbose exit [ 1, true ]

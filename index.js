@@ -17,12 +17,13 @@ module.exports = function (config, params) {
   const dateISONoTime = strftime('%Y%m%d', date)
 
   const canonicalURI = params.canonicalURI || '/'
+  const queryString = params.queryString || ''
 
   // Task 1: Create canonical request
   const signed_headers = 'host;x-amz-date'
   const canonicalRequest = params.method.toUpperCase() + '\n' +
     canonicalURI + '\n' +
-    '\n' +
+    queryString + '\n' +
     'host:' + host + '\n' +
     'x-amz-date:' + dateISO + '\n' +
     '\n' +
