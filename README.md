@@ -8,7 +8,7 @@ Keep in mind this has only been tested with API Gateway and S3.
 
 ## install
 
-`npm install --save aws-sigv4`
+`npm install --save aws-sigv4-headers`
 
 ## usage
 
