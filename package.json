@@ -1,0 +1,22 @@
+{
+  "name": "aws-sigv4-headers",
+  "version": "1.0.0",
+  "description": "build headers for requests on aws rest apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/aws-sigv4-headers.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "kareniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kareniel/aws-sigv4-headers/issues"
+  },
+  "homepage": "https://github.com/kareniel/aws-sigv4-headers#readme"
+}
